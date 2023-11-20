@@ -66,6 +66,10 @@ h1, h2, h3 {
     white-space: nowrap;
 }
 
+.address_line_break {
+    display: block;
+}
+
 .cover {
     background: rgba(6, 66, 6, 0.82) url(/images/cover.jpg) center/cover no-repeat;
     padding: 165px 50px 50px;
@@ -97,26 +101,36 @@ h1, h2, h3 {
     font-weight: 700;
 }
 
-.aligned-text .aligned-text_left {
-    letter-spacing: 6px;
-    line-height: 1.12;
+.aligned-text_left {
+    line-height: 1.15;
+    letter-spacing: 5px;
 }
 
-.aligned-text_left .letter-spacing{
+.aligned-text_center {
+    text-align: center;
+    line-height: 1.24;
+}
+
+.aligned-text_right {
+    text-align: end;
+    line-height: 1;
+}
+
+.letter-spacing{
     letter-spacing: 30px;
 }
 
-.aligned-text.aligned-text_center {
-    text-align: center;
-    line-height: 1.12;
+.letter-spacing_center__second_syllable{
+    letter-spacing: 60px;
 }
 
-.aligned-text.aligned-text_right {
-    text-align: end;
-    line-height: 1.13;
+.letter-spacing_right__first_letter {
+    letter-spacing: 36px;
 }
 
-
+.letter-spacing_right__third_letter{
+    letter-spacing: 6px;
+}
 
 .cover__description {
     display: flex;
@@ -196,7 +210,7 @@ h1, h2, h3 {
     color: #FFF;
     font-size: 22px;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.17;
     text-decoration-line: underline;
     padding-bottom: 30px;
     z-index: 2;
