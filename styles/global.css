@@ -6,8 +6,24 @@
 
 body {
   min-width: 1100px;
-  margin: 0;
+  margin: auto;
   font-family: Raleway, sans-serif;
+  font-size: 20px;
+  background: #FFF;
+  max-width: 1440px;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+a {
+  text-underline-position: under;
+}
+
+h1, h2, h3 {
+  text-transform: uppercase;
 }
 
 h1,
