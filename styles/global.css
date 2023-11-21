@@ -20,6 +20,7 @@ a {
 
 a {
   text-underline-position: under;
+  color: inherit;
 }
 
 h1, h2, h3 {
@@ -39,10 +40,6 @@ li,
 blockquote {
   margin: 0;
   padding: 0;
-}
-
-a {
-  color: inherit;
 }
 
 img {
